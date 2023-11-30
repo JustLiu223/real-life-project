@@ -4,7 +4,7 @@
 #include <QObject>
 #include <QSqlQuery>
 #include <QSqlDatabase>
-
+#include <QStringList>
 class OpeDB : public QObject
 {
     Q_OBJECT
@@ -14,6 +14,10 @@ public:
     void init();
     ~OpeDB();
     bool handleRegist(const char *name, const char *pwd);
+    bool handleLogin(const char *name, const char *pwd);
+    void handleOffline(const char *name);
+    QStringList handleAllOnline();
+    int handleSearchUsr(const char *name);
 signals:
 private:
     QSqlDatabase m_db; //连接数据库

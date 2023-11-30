@@ -11,6 +11,8 @@ public:
     MyTcpServer();
     static MyTcpServer &getInstance();  //静态函数生成对象
     void incomingConnection(qintptr socketDescriptor);  //连接成功运行函数
+public slots:
+    void deleteSocket(MyTcpSocket *mytcpsocket);          //删除socket
 private:
     QList<MyTcpSocket*> m_tcpSocketList;
 };

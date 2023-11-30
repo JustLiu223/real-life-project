@@ -1,6 +1,6 @@
 #include "protocol.h"
 
-PDU *mkPDU(uint uiMsgLen)
+PDU *mkPDU(uint uiMsgLen)            //创建pdu对象用来发送数据
 {
     uint uiPDULen = sizeof(PDU)+uiMsgLen;
     PDU *pdu = (PDU*)malloc(uiPDULen);

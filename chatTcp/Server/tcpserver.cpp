@@ -13,8 +13,8 @@ TcpServer::TcpServer(QWidget *parent)
     , ui(new Ui::TcpServer)
 {
     ui->setupUi(this);
-    loadConfig();
-    MyTcpServer::getInstance().listen(QHostAddress(m_strIP),m_usPort);
+    loadConfig();                 //加载配置
+    MyTcpServer::getInstance().listen(QHostAddress(m_strIP),m_usPort);    //监听客户端的连接
 }
 
 TcpServer::~TcpServer()
