@@ -117,6 +117,7 @@
 #define _cdecl __attribute__((__cdecl__))
 #define __GXX_RTTI 1
 #define __MMX__ 1
+#define __FLT_HAS_DENORM__ 1
 #define __SIZEOF_LONG_DOUBLE__ 16
 #define __BIGGEST_ALIGNMENT__ 16
 #define __STDC_UTF_16__ 1
@@ -156,7 +157,6 @@
 #define __WIN32__ 1
 #define __PTRDIFF_MAX__ 0x7fffffffffffffffLL
 #define __amd64 1
-#define __FLT_HAS_DENORM__ 1
 #define __tune_core2__ 1
 #define __ATOMIC_HLE_ACQUIRE 65536
 #define __GNUG__ 11

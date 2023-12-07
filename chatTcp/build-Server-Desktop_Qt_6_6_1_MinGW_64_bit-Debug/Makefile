@@ -83,58 +83,12 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_ext_freetype.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_ext_libjpeg.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_ext_libpng.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3danimation.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3danimation_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dcore.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dcore_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dextras.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dextras_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dinput.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dinput_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dlogic.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dlogic_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquick.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquick_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickanimation.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickanimation_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickextras.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickextras_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickinput.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickinput_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickrender.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickrender_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickscene2d.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickscene2d_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3drender.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3drender_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_activeqt.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_activeqt_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_axbase_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_axcontainer.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_axcontainer_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_axserver.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_axserver_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_bluetooth.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_bluetooth_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_bodymovin_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_charts.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_charts_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_chartsqml.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_chartsqml_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_coap.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_coap_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_concurrent.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_concurrent_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_core.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_core_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_datavisualization.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_datavisualization_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_datavisualizationqml.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_datavisualizationqml_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_dbus.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_dbus_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_declarativeopcua.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_declarativeopcua_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_designer.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_designer_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_designercomponents_private.pri \
@@ -143,23 +97,12 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_example_icons_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_fb_support_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_freetype_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_graphs.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_graphs_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_grpc.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_grpc_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_gui.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_gui_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_harfbuzz_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_help.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_help_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_httpserver.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_httpserver_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_insighttracker.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_insighttracker_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_insighttrackerqml.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_insighttrackerqml_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_jpeg_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_jsonrpc_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labsanimation.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labsanimation_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labsfolderlistmodel.pri \
@@ -172,52 +115,18 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labssharedimage_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labswavefrontmesh.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_languageserver_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_linguist.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_linguist_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_location.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_location_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_mqtt.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_mqtt_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_multimedia.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_multimedia_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_multimediaquick_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_multimediawidgets.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_network.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_network_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_networkauth.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_networkauth_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_nfc.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_nfc_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_opcua.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_opcua_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_opengl.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_opengl_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_openglwidgets.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_openglwidgets_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_packetprotocol_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdf.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdf_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdfquick.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdfquick_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdfwidgets.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdfwidgets_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_png_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_positioning.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_positioning_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_positioningquick.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_positioningquick_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_printsupport.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_printsupport_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobuf.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobuf_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufqtcoretypes.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufqtcoretypes_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufqtguitypes.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufqtguitypes_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufwellknowntypes.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufwellknowntypes_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qdoccatch_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qdoccatchconversionsprivate.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qdoccatchconversionsprivate_private.pri \
@@ -227,7 +136,6 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qml_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlcompiler.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlcompiler_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlcompilerplus_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlcore.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlcore_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmldebug_private.pri \
@@ -248,34 +156,6 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3d.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3d_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dassetimport.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dassetutils.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dassetutils_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3deffects.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3deffects_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dglslparser_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dhelpers.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dhelpers_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dhelpersimpl.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dhelpersimpl_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3diblbaker.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3diblbaker_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dparticleeffects.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dparticleeffects_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dparticles.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dparticles_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dphysics.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dphysics_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dphysicshelpers.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dphysicshelpers_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3druntimerender.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dutils.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dutils_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quickcontrols2.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri \
@@ -296,65 +176,20 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quicktemplates2.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quicktestutilsprivate_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quicktimeline.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quicktimeline_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quickwidgets.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_remoteobjects.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_remoteobjects_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_remoteobjectsqml.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_remoteobjectsqml_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_repparser.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_repparser_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_scxml.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_scxml_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_scxmlqml.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_scxmlqml_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sensors.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sensors_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sensorsquick.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sensorsquick_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_serialbus.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_serialbus_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_serialport.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_serialport_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_shadertools.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_shadertools_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_spatialaudio.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_spatialaudio_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sql.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sql_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_statemachine.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_statemachine_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_statemachineqml.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_statemachineqml_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_svg.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_svg_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_svgwidgets.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_svgwidgets_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_testlib.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_testlib_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_texttospeech.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_texttospeech_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_tools_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_uiplugin.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_uitools.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_uitools_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_virtualkeyboard.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_vncserver.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_vncserver_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_vncserverquick_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webchannel.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webchannel_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webchannelquick.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webchannelquick_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_websockets.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_websockets_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webview.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webview_private.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webviewquick.pri \
-		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webviewquick_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_widgets.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_widgets_private.pri \
 		../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_xml.pri \
@@ -412,58 +247,12 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_ext_freetype.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_ext_libjpeg.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_ext_libpng.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3danimation.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3danimation_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dcore.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dcore_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dextras.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dextras_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dinput.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dinput_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dlogic.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dlogic_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquick.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquick_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickanimation.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickanimation_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickextras.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickextras_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickinput.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickinput_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickrender.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickrender_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickscene2d.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3dquickscene2d_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3drender.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_3drender_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_activeqt.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_activeqt_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_axbase_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_axcontainer.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_axcontainer_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_axserver.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_axserver_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_bluetooth.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_bluetooth_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_bodymovin_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_charts.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_charts_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_chartsqml.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_chartsqml_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_coap.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_coap_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_concurrent.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_concurrent_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_core.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_core_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_datavisualization.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_datavisualization_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_datavisualizationqml.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_datavisualizationqml_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_dbus.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_dbus_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_declarativeopcua.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_declarativeopcua_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_designer.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_designer_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_designercomponents_private.pri:
@@ -472,23 +261,12 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_example_icons_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_fb_support_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_freetype_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_graphs.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_graphs_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_grpc.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_grpc_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_gui.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_gui_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_harfbuzz_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_help.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_help_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_httpserver.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_httpserver_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_insighttracker.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_insighttracker_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_insighttrackerqml.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_insighttrackerqml_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_jpeg_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_jsonrpc_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labsanimation.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labsanimation_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labsfolderlistmodel.pri:
@@ -501,52 +279,18 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labssharedimage_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labswavefrontmesh.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_languageserver_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_linguist.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_linguist_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_location.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_location_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_mqtt.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_mqtt_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_multimedia.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_multimedia_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_multimediaquick_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_multimediawidgets.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_network.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_network_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_networkauth.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_networkauth_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_nfc.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_nfc_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_opcua.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_opcua_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_opengl.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_opengl_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_openglwidgets.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_openglwidgets_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_packetprotocol_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdf.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdf_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdfquick.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdfquick_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdfwidgets.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_pdfwidgets_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_png_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_positioning.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_positioning_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_positioningquick.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_positioningquick_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_printsupport.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_printsupport_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobuf.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobuf_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufqtcoretypes.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufqtcoretypes_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufqtguitypes.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufqtguitypes_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufwellknowntypes.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_protobufwellknowntypes_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qdoccatch_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qdoccatchconversionsprivate.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qdoccatchconversionsprivate_private.pri:
@@ -556,7 +300,6 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qml_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlcompiler.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlcompiler_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlcompilerplus_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlcore.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlcore_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmldebug_private.pri:
@@ -577,34 +320,6 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3d.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3d_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dassetimport.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dassetutils.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dassetutils_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3deffects.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3deffects_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dglslparser_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dhelpers.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dhelpers_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dhelpersimpl.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dhelpersimpl_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3diblbaker.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3diblbaker_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dparticleeffects.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dparticleeffects_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dparticles.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dparticles_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dphysics.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dphysics_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dphysicshelpers.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dphysicshelpers_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3druntimerender.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dutils.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick3dutils_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quick_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quickcontrols2.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri:
@@ -625,65 +340,20 @@ Makefile: ../Server/Server.pro ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quicktemplates2.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quicktestutilsprivate_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quicktimeline.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quicktimeline_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quickwidgets.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_quickwidgets_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_remoteobjects.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_remoteobjects_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_remoteobjectsqml.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_remoteobjectsqml_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_repparser.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_repparser_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_scxml.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_scxml_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_scxmlqml.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_scxmlqml_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sensors.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sensors_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sensorsquick.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sensorsquick_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_serialbus.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_serialbus_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_serialport.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_serialport_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_shadertools.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_shadertools_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_spatialaudio.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_spatialaudio_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sql.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_sql_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_statemachine.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_statemachine_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_statemachineqml.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_statemachineqml_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_svg.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_svg_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_svgwidgets.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_svgwidgets_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_testlib.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_testlib_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_texttospeech.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_texttospeech_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_tools_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_uiplugin.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_uitools.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_uitools_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_virtualkeyboard.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_vncserver.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_vncserver_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_vncserverquick_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webchannel.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webchannel_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webchannelquick.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webchannelquick_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_websockets.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_websockets_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webview.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webview_private.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webviewquick.pri:
-../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_webviewquick_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_widgets.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_widgets_private.pri:
 ../../../../installAPP/qt/6.6.1/mingw_64/mkspecs/modules/qt_lib_xml.pri:

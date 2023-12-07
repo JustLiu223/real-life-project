@@ -29,13 +29,13 @@ public:
     {
         if (TcpServer->objectName().isEmpty())
             TcpServer->setObjectName("TcpServer");
-        TcpServer->resize(800, 600);
+        TcpServer->resize(373, 287);
         centralwidget = new QWidget(TcpServer);
         centralwidget->setObjectName("centralwidget");
         TcpServer->setCentralWidget(centralwidget);
         menubar = new QMenuBar(TcpServer);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 21));
+        menubar->setGeometry(QRect(0, 0, 373, 21));
         TcpServer->setMenuBar(menubar);
         statusbar = new QStatusBar(TcpServer);
         statusbar->setObjectName("statusbar");

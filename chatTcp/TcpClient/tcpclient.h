@@ -20,6 +20,7 @@ public:
     void loadconfig();
     static TcpClient &getInstance();
     QTcpSocket &getTcpSocket();
+    QString loginName();
 public slots:
     void showConnect();
     void recvMsg();
@@ -40,5 +41,6 @@ private:
     QString m_strIP;             //ip地址
     quint16 m_usPort;           //端口
     QTcpSocket m_tcpSocket;     //stocket变量
+    QString m_strLoginName;
 };
 #endif // TCPCLIENT_H

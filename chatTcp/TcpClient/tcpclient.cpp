@@ -7,6 +7,7 @@
 #include <QMessageBox>  //消息框
 #include <QHostAddress>    //网络通信
 #include "protocol.h"             //自定义协议
+#include "privatechat.h"
 TcpClient::TcpClient(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::TcpClient)
@@ -60,6 +61,11 @@ TcpClient &TcpClient::getInstance()   //单例模式构造对象
 QTcpSocket &TcpClient::getTcpSocket()
 {
     return m_tcpSocket;
+}
+
+QString TcpClient::loginName()
+{
+    return m_strLoginName;
 }
 
 void TcpClient::showConnect()
@@ -118,15 +124,73 @@ void TcpClient::recvMsg()
     }
     case ENUM_MSG_TYPE_SEARCH_USR_RESPOND:          //查找用户响应
     {
-        if(0 == strcmp(SEARCH_USR_NO,pdu->caData)){                       //用户不存在数据库
+        if(0 == strcmp(USR_NO,pdu->caData)){                       //用户不存在数据库
             QMessageBox::information(this,"搜索",QString("%1: not exist").arg(OpeWidget::getInstance().getFriend()->m_strSearchName));
         }
-        else if(0 == strcmp(SEARCH_USR_ONLINE,pdu->caData)){            //用户存在且在线
+        else if(0 == strcmp(USR_ONLINE,pdu->caData)){            //用户存在且在线
             QMessageBox::information(this,"搜索",QString("%1: online").arg(OpeWidget::getInstance().getFriend()->m_strSearchName));
         }
-        else if(0 == strcmp(SEARCH_USR_OFFLINE,pdu->caData)){           //用户存在但是不在线
+        else if(0 == strcmp(USR_OFFLINE,pdu->caData)){           //用户存在但是不在线
             QMessageBox::information(this,"搜索",QString("%1: offline").arg(OpeWidget::getInstance().getFriend()->m_strSearchName));
         }
+        break;
+    }
+    case ENUM_MSG_TYPE_ADD_FRIEND_REQUEST:
+    {
+        char caName[32] = {'\0'};
+        strncpy(caName,pdu->caData+32,32);
+        int ret = QMessageBox::information(this,"添加好友",QString("%1 want to add you as friend?").arg(caName),QMessageBox::Yes,QMessageBox::No);
+        PDU *respdu = mkPDU(0);
+        memcpy(respdu->caData,pdu->caData,32);
+        if(ret ==QMessageBox::Yes )
+        {
+                respdu->uiMsgType = ENUM_MSG_TYPE_ADD_FRIEND_AGGREE;
+            }  else{
+                respdu->uiMsgType = ENUM_MSG_TYPE_ADD_FRIEND_REFUSE;
+         }
+            m_tcpSocket.write((char*)respdu,respdu->uiPDULen);
+         free(respdu);
+            respdu=NULL;
+           break;
+    }
+    case ENUM_MSG_TYPE_ADD_FRIEND_RESPOND:
+    {
+        QMessageBox::information(this,"添加好友",pdu->caData);
+
+
+        break;
+    }
+    case ENUM_MSG_TYPE_FLUSH_FRIEND_RESPOND:
+    {
+        OpeWidget::getInstance().getFriend()->updateFriendList(pdu);
+        QMessageBox::information(this,"刷新列表","刷新成功");
+        break;
+    }
+    case ENUM_MSG_TYPE_DELETE_FRIEND_REQUEST:
+    {
+        char caName[32] = {'\0'};
+        memcpy(caName,pdu->caData,32);
+        QMessageBox::information(this,"删除好友",QString("%1 删除了你！").arg(caName));
+        break;
+    }
+    case ENUM_MSG_TYPE_DELETE_FRIEND_RESPOND:
+    {
+        QMessageBox::information(this,"删除好友","删除好友成功！");
+        break;
+    }
+    case ENUM_MSG_TYPE_PRIVATE_CHAT_REQUEST:
+    {
+        if(PrivateChat::getInstance().isHidden()){
+
+            PrivateChat::getInstance().show();
+        }
+        char caSendName[32] ={'\0'};
+        memcpy(caSendName,pdu->caData,32);
+        QString strSendName = caSendName;
+        PrivateChat::getInstance().setChatName(strSendName);
+        PrivateChat::getInstance().updateMsg(pdu);
+
+
         break;
     }
     default:
@@ -160,7 +224,8 @@ void TcpClient::on_login_pb_clicked()       //点击登录按钮
 {
     QString strName = ui->name_le->text();           //获取输入框内容姓名和密码
     QString strPwd = ui->pwd_le->text();
-    if(!strName.isEmpty()&&!strPwd.isEmpty()){                //判断是否为空
+    if(!strName.isEmpty()&&!strPwd.isEmpty()){        //判断是否为空
+        m_strLoginName = strName;
         PDU *pdu = mkPDU(0);
         pdu->uiMsgType = ENUM_MSG_TYPE_LOGIN_REQUEST;          //设置消息类型为登录请求
         strncpy(pdu->caData,strName.toStdString().c_str(),32);            //将姓名和密码转换为32位字符数组存入pdu->caData

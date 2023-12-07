@@ -114,3 +114,92 @@ int OpeDB::handleSearchUsr(const char *name)                  //检索姓名符�
         return  -1;
     }
 }
+
+int OpeDB::handleADDFriend(const char *pername, const char *name)
+{
+    if(NULL ==pername || NULL == name){
+        return -1;
+    }
+    QString data = QString("select * from friend where (id=(select id from userInfo where name = \'%1\') and friendId = (select id from userInfo where name = \'%2\'))"
+                           " or (id=(select id from userInfo where name = \'%3\') and friendId = (select id from userInfo where name = \'%4\')) ").arg(pername).arg(name).arg(name).arg(pername);
+    qDebug()<<data;
+    QSqlQuery query;
+    query.exec(data);
+    if(query.next()){
+        return 0; //双方已经是好友
+    }else
+    {
+        QString data = QString("select online from userInfo where name=\'%1\'").arg(pername);
+        QSqlQuery query;
+        query.exec(data);
+        if(query.next()){                    //返回三种情况，在线，不在线，不存在
+            int ret = query.value(0).toInt();
+            if (ret ==1){
+                return 1;
+            }
+            else if (ret == 0){
+                return 2;
+            }
+        }
+        else{
+            return  3;
+        }
+    }
+}
+
+QStringList OpeDB::handleFlushFriend(const char *name)
+{
+    QStringList strFriendList;
+    strFriendList.clear();
+    if(NULL == name)
+    {
+        return strFriendList;
+    }
+    // QString data = QString("select name from userInfo where online=1 and id=(select id from friend where friendId=(select id from userInfo where name=\'%1\'))").arg(name);
+    // QSqlQuery query;
+    // query.exec(data);
+    // while (query.next()){
+    //     strFriendList.append(query.value(0).toString());
+    //     qDebug()<<query.value(0).toString();
+    // }
+    // // query.clear();
+    // data = QString("select name from userInfo where online=1 and id=(select friendId from friend where id=(select id from userInfo where name=\'%1\'))").arg(name);
+    // // QSqlQuery query;
+    // query.exec(data);
+    // while (query.next()){
+    //     strFriendList.append(query.value(0).toString());
+    //     qDebug()<<query.value(0).toString();
+    // }
+    // QString data = QString("SELECT id FROM userInfo WHERE name = \'%1\'").arg(name);
+    QSqlQuery query;
+    // query.exec(data);
+    // QString UserId = query.value(0).toString();
+    QString data = QString("SELECT userInfo.name, userInfo.online FROM userInfo INNER JOIN friend ON userInfo.id = friend.friendId WHERE friend.id=(SELECT id FROM userInfo WHERE name=\'%1\')").arg(name);
+    query.exec(data);
+    while (query.next()){
+        strFriendList.append(query.value(0).toString());
+        strFriendList.append(query.value(1).toString());
+    }
+      data = QString("SELECT userInfo.name, userInfo.online FROM userInfo INNER JOIN friend ON (userInfo.id = friend.id) WHERE friend.friendId=(SELECT id FROM userInfo WHERE name=\'%1\')").arg(name);
+     query.exec(data);
+    while (query.next()){
+        strFriendList.append(query.value(0).toString());
+        strFriendList.append(query.value(1).toString());
+    }
+
+    qDebug()<<strFriendList;
+    return strFriendList;
+}
+
+bool OpeDB::handleDelFriend(const char *name, const char *friendName)
+{
+    if(NULL==name||NULL ==friendName){
+        return false;
+    }
+    QString data = QString("delete from friend where id =(select id from userInfo where name=\'%1\') and friendId=(select id from userInfo where name=\'%2\')").arg(name).arg(friendName);
+    QSqlQuery query;
+    query.exec(data);
+    data = QString("delete from friend where id =(select id from userInfo where name=\'%1\') and friendId=(select id from userInfo where name=\'%2\')").arg(friendName).arg(name);
+    query.exec(data);
+    return true;
+}

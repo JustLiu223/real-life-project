@@ -46,10 +46,6 @@ public:
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName("horizontalLayout");
         online_lw = new QListWidget(Online);
-        new QListWidgetItem(online_lw);
-        new QListWidgetItem(online_lw);
-        new QListWidgetItem(online_lw);
-        new QListWidgetItem(online_lw);
         online_lw->setObjectName("online_lw");
 
         horizontalLayout->addWidget(online_lw);
@@ -84,19 +80,6 @@ public:
     void retranslateUi(QWidget *Online)
     {
         Online->setWindowTitle(QCoreApplication::translate("Online", "Form", nullptr));
-
-        const bool __sortingEnabled = online_lw->isSortingEnabled();
-        online_lw->setSortingEnabled(false);
-        QListWidgetItem *___qlistwidgetitem = online_lw->item(0);
-        ___qlistwidgetitem->setText(QCoreApplication::translate("Online", "1111", nullptr));
-        QListWidgetItem *___qlistwidgetitem1 = online_lw->item(1);
-        ___qlistwidgetitem1->setText(QCoreApplication::translate("Online", "2222", nullptr));
-        QListWidgetItem *___qlistwidgetitem2 = online_lw->item(2);
-        ___qlistwidgetitem2->setText(QCoreApplication::translate("Online", "3333", nullptr));
-        QListWidgetItem *___qlistwidgetitem3 = online_lw->item(3);
-        ___qlistwidgetitem3->setText(QCoreApplication::translate("Online", "4444", nullptr));
-        online_lw->setSortingEnabled(__sortingEnabled);
-
         addFriend_pb->setText(QCoreApplication::translate("Online", "\346\267\273\345\212\240\345\245\275\345\217\213", nullptr));
     } // retranslateUi
 

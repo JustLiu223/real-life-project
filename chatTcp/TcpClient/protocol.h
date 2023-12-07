@@ -10,9 +10,12 @@ typedef  unsigned int uint;
 #define LOGIN_OK "login ok"
 #define LOGIN_FAILED "login failed"
 
-#define SEARCH_USR_NO "no such people"
-#define SEARCH_USR_ONLINE "online"
-#define SEARCH_USR_OFFLINE "offline"
+#define USR_NO "no  user"
+#define USR_ONLINE "user online"
+#define USR_OFFLINE "user offline"
+#define UNKNOW_ERROR "unknow error"
+#define USR_EXISTED "uer existed"
+#define DEL_FRIEND_OK "delete friend ok"
 enum ENUM_MSG_TYPE
 {
     ENUM_MSG_TYPE_MIN =0,
@@ -24,6 +27,22 @@ enum ENUM_MSG_TYPE
     ENUM_MSG_TYPE_ALL_ONLINE_RESPOND,  //在线用户回复
     ENUM_MSG_TYPE_SEARCH_USR_REQUEST,  //搜索用户
     ENUM_MSG_TYPE_SEARCH_USR_RESPOND,  //搜索用户回复
+    ENUM_MSG_TYPE_ADD_FRIEND_REQUEST,  //添加好友请求
+    ENUM_MSG_TYPE_ADD_FRIEND_RESPOND,  //添加好友响应
+
+    ENUM_MSG_TYPE_ADD_FRIEND_AGGREE,
+    ENUM_MSG_TYPE_ADD_FRIEND_REFUSE,
+
+    ENUM_MSG_TYPE_FLUSH_FRIEND_REQUEST,  //刷新好友请求
+    ENUM_MSG_TYPE_FLUSH_FRIEND_RESPOND,  //刷新好友响应
+
+    ENUM_MSG_TYPE_DELETE_FRIEND_REQUEST,  //删除好友请求
+    ENUM_MSG_TYPE_DELETE_FRIEND_RESPOND,  //删除好友响应
+
+
+    ENUM_MSG_TYPE_PRIVATE_CHAT_REQUEST,  //私聊请求
+    ENUM_MSG_TYPE_PRIVATE_CHAT_RESPOND,  //私聊回复
+
     ENUM_MSG_TYPE_MAX =0x00ffffff
 };
 

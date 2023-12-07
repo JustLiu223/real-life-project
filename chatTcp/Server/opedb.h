@@ -18,6 +18,9 @@ public:
     void handleOffline(const char *name);
     QStringList handleAllOnline();
     int handleSearchUsr(const char *name);
+    int handleADDFriend(const char *pername,const char *name);
+    QStringList handleFlushFriend(const char *name);
+    bool handleDelFriend(const char *name,const char *friendName);
 signals:
 private:
     QSqlDatabase m_db; //连接数据库
